@@ -10,7 +10,7 @@ namespace CSharpOrnekler
     {
         static void Main(string[] args)
         {
-            CarpmaOrnegi.SonucCalıstır();
+            kelimeSayisi.kelimeSayisiBul();
 
         }
     }
