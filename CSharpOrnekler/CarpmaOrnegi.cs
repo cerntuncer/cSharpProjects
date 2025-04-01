@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace CSharpOrnekler
 {
     public class CarpmaOrnegi
+
     {
        public static void SonucCalıstır()
         {
