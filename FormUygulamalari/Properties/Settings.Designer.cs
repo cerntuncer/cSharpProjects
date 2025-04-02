@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FormaUygulamalari.Properties
+namespace FormUygulamalari.Properties
 {
 
 
