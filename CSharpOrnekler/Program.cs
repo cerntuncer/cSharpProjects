@@ -11,6 +11,8 @@ namespace CSharpOrnekler
         static void Main(string[] args)
         {
             ArrayListOrnek1.ArrayList();
+            FaktoriyelOrnegi.Calistir();
+            FibonacciOrnegi.Calistir();
 
         }
     }

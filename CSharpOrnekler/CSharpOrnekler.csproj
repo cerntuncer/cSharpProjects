@@ -46,6 +46,8 @@
     <Compile Include="ArrayListOrnek1.cs" />
     <Compile Include="ArrayListOrnek2.cs" />
     <Compile Include="CarpmaOrnegi.cs" />
+    <Compile Include="FaktoriyelOrnegi.cs" />
+    <Compile Include="FibonacciOrnegi.cs" />
     <Compile Include="kelimeSayisi.cs" />
     <Compile Include="ListOrnek.cs" />
     <Compile Include="Program.cs" />
