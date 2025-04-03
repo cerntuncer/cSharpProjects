@@ -10,7 +10,7 @@ namespace CSharpOrnekler
     {
         static void Main(string[] args)
         {
-            ArrayListOrnek2.ArrayList2();
+            ArrayListOrnek1.ArrayList();
 
         }
     }
