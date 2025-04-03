@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayListOrnek1.cs" />
     <Compile Include="CarpmaOrnegi.cs" />
     <Compile Include="kelimeSayisi.cs" />
     <Compile Include="Program.cs" />

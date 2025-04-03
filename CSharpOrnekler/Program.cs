@@ -10,7 +10,7 @@ namespace CSharpOrnekler
     {
         static void Main(string[] args)
         {
-            kelimeSayisi.kelimeSayisiBul();
+            ArrayListOrnek1.ArrayList();
 
         }
     }
