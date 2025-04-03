@@ -46,10 +46,13 @@
     <Compile Include="ArrayListOrnek1.cs" />
     <Compile Include="ArrayListOrnek2.cs" />
     <Compile Include="CarpmaOrnegi.cs" />
+    <Compile Include="FaktoriyelOrnegi.cs" />
+    <Compile Include="FibonacciOrnegi.cs" />
     <Compile Include="kelimeSayisi.cs" />
     <Compile Include="ListOrnek.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SayininBasamaklari.cs" />
     <Compile Include="ToplamaOrnegi.cs" />
     <Compile Include="usAlmaIslemi.cs" />
   </ItemGroup>
