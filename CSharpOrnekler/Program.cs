@@ -18,6 +18,7 @@ namespace CSharpOrnekler
 
             DirectoryInfoOrnegi.Calistir();
 
+            FileInfoOrnek.Calistir();
 
         }
     }
