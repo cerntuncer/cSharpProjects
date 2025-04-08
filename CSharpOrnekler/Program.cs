@@ -16,6 +16,7 @@ namespace CSharpOrnekler
 
             DirectoryIslemleri.Calistir();
 
+            DirectoryInfoOrnegi.Calistir();
 
 
         }
