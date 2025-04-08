@@ -13,7 +13,10 @@ namespace CSharpOrnekler
             ArrayListOrnek1.ArrayList();
             FaktoriyelOrnegi.Calistir();
             FibonacciOrnegi.Calistir();
-            SayininBasamaklari.Calistir();
+
+            DirectoryIslemleri.Calistir();
+
+
 
         }
     }
