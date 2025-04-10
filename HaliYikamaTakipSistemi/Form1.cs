@@ -110,7 +110,6 @@ namespace HaliYikamaTakipSistemi
                 }
             }
 
-            // Görsel gösterim için sadece string gösteriyoruz
             lstHalilar.DisplayMember = "Gosterim";
         }
         private class ListViewItemData
