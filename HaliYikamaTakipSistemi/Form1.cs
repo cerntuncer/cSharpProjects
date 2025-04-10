@@ -85,16 +85,24 @@ namespace HaliYikamaTakipSistemi
 
             MessageBox.Show("Halı başarıyla eklendi!");
 
+            // ✅ Hemen listeye ekle (durum dahil)
+            string bilgi = $"{seciliMusteri.Ad} {seciliMusteri.Soyad} - {hali.Metrekare} m² - {hali.AlimTarihi.ToShortDateString()} → {hali.TeslimTarihi.ToShortDateString()} - Durum: {hali.Durum} - Ücret: {hali.Ucret} TL";
+            lstHalilar.Items.Add(new ListViewItemData { Musteri = seciliMusteri, Hali = hali, Gosterim = bilgi });
+            lstHalilar.DisplayMember = "Gosterim";
+
             // Alanları temizle
             txtMetrekare.Clear();
             dtpAlim.Value = DateTime.Now;
-            dtpTeslim.Value = DateTime.Now.AddDays(3); // otomatik tahmini tarih
-            cmbFiltre_SelectedIndexChanged(null, null); // Listeyi yenile
+            dtpTeslim.Value = DateTime.Now.AddDays(3);
+
         }
 
         private void cmbFiltre_SelectedIndexChanged(object sender, EventArgs e)
         {
             lstHalilar.Items.Clear();
+
+            if (cmbFiltre.SelectedItem == null)
+                return;
 
             string secilenDurum = cmbFiltre.SelectedItem.ToString();
 
