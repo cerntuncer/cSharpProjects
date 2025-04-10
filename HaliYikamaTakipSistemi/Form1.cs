@@ -94,6 +94,7 @@ namespace HaliYikamaTakipSistemi
             txtMetrekare.Clear();
             dtpAlim.Value = DateTime.Now;
             dtpTeslim.Value = DateTime.Now.AddDays(3);
+            lblUcret.Text = "Ücret: 0 TL";
 
         }
 
@@ -150,6 +151,19 @@ namespace HaliYikamaTakipSistemi
 
             // Listeyi yenile
             cmbFiltre_SelectedIndexChanged(null, null);
+        }
+
+        private void txtMetrekare_TextChanged(object sender, EventArgs e)
+        {
+            if (double.TryParse(txtMetrekare.Text, out double metrekare) && metrekare > 0)
+            {
+                double ucret = metrekare * 20;
+                lblUcret.Text = $"Ücret: {ucret} TL";
+            }
+            else
+            {
+                lblUcret.Text = "Ücret: 0 TL";
+            }
         }
     }
 }
