@@ -33,8 +33,6 @@ namespace arrayListTasarimi
 
         public void Insert(int index, object veri)
         {
-            if (index < 0 || index > elemanSayisi)
-                throw new IndexOutOfRangeException("Geçersiz indeks!");
 
             KapasiteKontrol();
 
@@ -49,8 +47,6 @@ namespace arrayListTasarimi
 
         public void RemoveAt(int index)
         {
-            if (index < 0 || index >= elemanSayisi)
-                throw new IndexOutOfRangeException("Silinecek indeks geçersiz!");
 
             for (int i = index; i < elemanSayisi - 1; i++)
             {
@@ -63,8 +59,6 @@ namespace arrayListTasarimi
 
         public object Get(int index)
         {
-            if (index < 0 || index >= elemanSayisi)
-                throw new IndexOutOfRangeException("Erişilen indeks geçersiz!");
 
             return dizi[index];
         }
