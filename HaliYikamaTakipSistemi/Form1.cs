@@ -18,7 +18,10 @@ namespace HaliYikamaTakipSistemi
             InitializeComponent();
         }
 
+        private void txtSoyad_TextChanged(object sender, EventArgs e)
+        {
 
+        }
 
         private void btnMusteriEkle_Click(object sender, EventArgs e)
         {
@@ -82,7 +85,7 @@ namespace HaliYikamaTakipSistemi
 
             MessageBox.Show("Halı başarıyla eklendi!");
 
-            // ✅ Hemen listeye ekle (durum dahil)
+            //listeye eklensin (durum dahil)
             string bilgi = $"{seciliMusteri.Ad} {seciliMusteri.Soyad} - {hali.Metrekare} m² - {hali.AlimTarihi.ToShortDateString()} → {hali.TeslimTarihi.ToShortDateString()} - Durum: {hali.Durum} - Ücret: {hali.Ucret} TL";
             lstHalilar.Items.Add(new ListViewItemData { Musteri = seciliMusteri, Hali = hali, Gosterim = bilgi });
             lstHalilar.DisplayMember = "Gosterim";

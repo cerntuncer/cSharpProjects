@@ -39,6 +39,7 @@
             this.lblSoyad = new System.Windows.Forms.Label();
             this.lblAd = new System.Windows.Forms.Label();
             this.grpHali = new System.Windows.Forms.GroupBox();
+            this.lblUcret = new System.Windows.Forms.Label();
             this.btnHaliEkle = new System.Windows.Forms.Button();
             this.dtpTeslim = new System.Windows.Forms.DateTimePicker();
             this.dtpAlim = new System.Windows.Forms.DateTimePicker();
@@ -52,7 +53,6 @@
             this.btnDurumGuncelle = new System.Windows.Forms.Button();
             this.lstHalilar = new System.Windows.Forms.ListBox();
             this.cmbFiltre = new System.Windows.Forms.ComboBox();
-            this.lblUcret = new System.Windows.Forms.Label();
             this.grpMusteri.SuspendLayout();
             this.grpHali.SuspendLayout();
             this.grpListe.SuspendLayout();
@@ -172,6 +172,15 @@
             this.grpHali.TabStop = false;
             this.grpHali.Text = "Halı Ekle";
             // 
+            // lblUcret
+            // 
+            this.lblUcret.AutoSize = true;
+            this.lblUcret.Location = new System.Drawing.Point(179, 80);
+            this.lblUcret.Name = "lblUcret";
+            this.lblUcret.Size = new System.Drawing.Size(71, 16);
+            this.lblUcret.TabIndex = 9;
+            this.lblUcret.Text = "Ücret: 0 TL";
+            // 
             // btnHaliEkle
             // 
             this.btnHaliEkle.Location = new System.Drawing.Point(88, 264);
@@ -256,14 +265,14 @@
             this.grpListe.Controls.Add(this.cmbFiltre);
             this.grpListe.Location = new System.Drawing.Point(588, 12);
             this.grpListe.Name = "grpListe";
-            this.grpListe.Size = new System.Drawing.Size(200, 375);
+            this.grpListe.Size = new System.Drawing.Size(529, 375);
             this.grpListe.TabIndex = 2;
             this.grpListe.TabStop = false;
             this.grpListe.Text = "Halı Listesi";
             // 
             // btnDurumGuncelle
             // 
-            this.btnDurumGuncelle.Location = new System.Drawing.Point(26, 264);
+            this.btnDurumGuncelle.Location = new System.Drawing.Point(170, 264);
             this.btnDurumGuncelle.Name = "btnDurumGuncelle";
             this.btnDurumGuncelle.Size = new System.Drawing.Size(134, 60);
             this.btnDurumGuncelle.TabIndex = 2;
@@ -277,7 +286,7 @@
             this.lstHalilar.ItemHeight = 16;
             this.lstHalilar.Location = new System.Drawing.Point(26, 77);
             this.lstHalilar.Name = "lstHalilar";
-            this.lstHalilar.Size = new System.Drawing.Size(134, 164);
+            this.lstHalilar.Size = new System.Drawing.Size(497, 164);
             this.lstHalilar.TabIndex = 1;
             // 
             // cmbFiltre
@@ -285,24 +294,15 @@
             this.cmbFiltre.FormattingEnabled = true;
             this.cmbFiltre.Location = new System.Drawing.Point(26, 33);
             this.cmbFiltre.Name = "cmbFiltre";
-            this.cmbFiltre.Size = new System.Drawing.Size(134, 24);
+            this.cmbFiltre.Size = new System.Drawing.Size(497, 24);
             this.cmbFiltre.TabIndex = 0;
             this.cmbFiltre.SelectedIndexChanged += new System.EventHandler(this.cmbFiltre_SelectedIndexChanged);
-            // 
-            // lblUcret
-            // 
-            this.lblUcret.AutoSize = true;
-            this.lblUcret.Location = new System.Drawing.Point(179, 80);
-            this.lblUcret.Name = "lblUcret";
-            this.lblUcret.Size = new System.Drawing.Size(71, 16);
-            this.lblUcret.TabIndex = 9;
-            this.lblUcret.Text = "Ücret: 0 TL";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1129, 639);
             this.Controls.Add(this.grpListe);
             this.Controls.Add(this.grpHali);
             this.Controls.Add(this.grpMusteri);
