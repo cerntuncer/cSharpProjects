@@ -18,10 +18,7 @@ namespace HaliYikamaTakipSistemi
             InitializeComponent();
         }
 
-        private void txtSoyad_TextChanged(object sender, EventArgs e)
-        {
 
-        }
 
         private void btnMusteriEkle_Click(object sender, EventArgs e)
         {
