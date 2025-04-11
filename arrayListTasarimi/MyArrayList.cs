@@ -33,7 +33,7 @@ namespace arrayListTasarimi
 
         public void Insert(int index, object veri)
         {
-
+           
             KapasiteKontrol();
 
             for (int i = elemanSayisi; i > index; i--)
