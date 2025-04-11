@@ -25,7 +25,7 @@ namespace HaliYikamaTakipSistemi
 
         private void btnMusteriEkle_Click(object sender, EventArgs e)
         {
-            // Girişler boş mu kontrol et
+            // Girişler boş mu kontrol ediyoruz
             if (string.IsNullOrWhiteSpace(txtAd.Text) ||
                 string.IsNullOrWhiteSpace(txtSoyad.Text) ||
                 string.IsNullOrWhiteSpace(txtTelefon.Text) ||
@@ -35,7 +35,7 @@ namespace HaliYikamaTakipSistemi
                 return;
             }
 
-            // Yeni müşteri nesnesi oluştur
+            // Yeni müşteri nesnesi oluşturdum
             MusteriBilgileri musteri = new MusteriBilgileri
             {
                 Ad = txtAd.Text,

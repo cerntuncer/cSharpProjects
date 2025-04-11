@@ -342,8 +342,8 @@
         private System.Windows.Forms.GroupBox grpListe;
         private System.Windows.Forms.Button btnDurumGuncelle;
         private System.Windows.Forms.ListBox lstHalilar;
-        private System.Windows.Forms.ComboBox cmbFiltre;
         private System.Windows.Forms.Label lblUcret;
+        private System.Windows.Forms.ComboBox cmbFiltre;
     }
 }
 
