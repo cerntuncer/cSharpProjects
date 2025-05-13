@@ -19,4 +19,4 @@ namespace TemelOrnek
             Console.WriteLine($"Motorsiklet tekerlek sayısı: {m.TekerlekSayisi}");
         }
     }
-}
+} 
