@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TemelOrnek")]
+[assembly: AssemblyTitle("KalitimOrnekleri")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TemelOrnek")]
+[assembly: AssemblyProduct("KalitimOrnekleri")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e08fcf2e-7def-443d-bb6e-71f20629ca94")]
+[assembly: Guid("99ac2876-4555-40de-968a-a63c170e7e85")]
 
 // Version information for an assembly consists of the following four values:
 //

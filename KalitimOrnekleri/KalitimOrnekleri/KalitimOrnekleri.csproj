@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E08FCF2E-7DEF-443D-BB6E-71F20629CA94}</ProjectGuid>
+    <ProjectGuid>{99AC2876-4555-40DE-968A-A63C170E7E85}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TemelOrnek</RootNamespace>
-    <AssemblyName>TemelOrnek</AssemblyName>
+    <RootNamespace>KalitimOrnekleri</RootNamespace>
+    <AssemblyName>KalitimOrnekleri</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TemelOrnek.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
