@@ -25,7 +25,7 @@ namespace generics
             return veri;
         }
 
-        public T Bak() // Peek
+        public T Bak() 
         {
             if (BosMu()) throw new Exception("Yığın boş!");
             return tepe.Veri;

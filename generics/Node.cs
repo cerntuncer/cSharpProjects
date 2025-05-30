@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace generics
 {
-    // Tüm veri yapılarında kullanılabilir basit bir düğüm (node) sınıfı
+
     public class Node<T>
     {
         public T Veri { get; set; }

@@ -13,9 +13,12 @@ namespace generics
             var stack = new GenericStack<string>();
             stack.Ekle("Kitap");
             stack.Ekle("Defter");
+            stack.Ekle("Kalem");
             Console.WriteLine("Yığından Çıkan: " + stack.Cikar());
 
             var kuyruk = new GenericQueue<int>();
+            kuyruk.Ekle(5);
+            kuyruk.Ekle(7);
             kuyruk.Ekle(10);
             kuyruk.Ekle(20);
             Console.WriteLine("Kuyruktan Çıkan: " + kuyruk.Cikar());
@@ -26,7 +29,7 @@ namespace generics
             liste.SonaEkle('C');
             Console.WriteLine("Bağlı Liste:");
             liste.Listele();
-            liste.Listele();
+            
         }
     }
 }
